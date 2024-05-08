@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/bakra\ eid\ wallpaper.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+#container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    height: 100px;
+    width: 98px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
